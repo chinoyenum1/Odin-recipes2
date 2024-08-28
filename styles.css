@@ -1,0 +1,68 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  text-align: center;
+}
+
+.header-title {
+  width: 100%;
+  border: 2px;
+  color: brown;
+  border-bottom: 5px solid brown;
+  background-color: aliceblue;
+}
+
+.recipe-container {
+  width: 60%;
+  border-width: 10px;
+  border-color: brown;
+  border-radius: 1px;
+  background-color: aliceblue;
+  text-align: center;
+  margin: auto;
+}
+
+p.desc {
+  padding-left: 80px;
+  padding-right: 100px;
+  text-align: left;
+}
+
+ul.recipe-home {
+  text-align: center;
+  padding: 20px;
+}
+
+ul.ingredient-list, ol.step-list{
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+li.recipe-list {
+  list-style: none;
+  border: 2px solid brown;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: cornsilk;
+}
+
+li.recipe-list > a {
+  text-decoration: none;
+}
+
+li.recipe-list > a > img, img {
+  width: 80%;
+  height: auto;
+}
+
+li.ingredient {
+  border: none;
+  background-color: bisque;
+}
+
+li.step {
+  list-style-type: ;
+}
